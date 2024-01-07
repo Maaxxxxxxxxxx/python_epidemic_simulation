@@ -1,6 +1,10 @@
 import math
 import random
 
+
+# this is to test git commit, pull, push, pull request, merge
+# this is some updates mode from new branch test_git
+
 from constants import PreventativeMeasure
 
 
@@ -14,6 +18,8 @@ class PreventativeMeasures:
         self.measures = measures
         self.vaccination_rate = vaccination_rate
         self.percent = percent
+
+        # some modifications of new code
 
     def enact(self):
         for measure in self.measures:
